@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  background-color: #ffffff;
+  font-family: system-ui, sans-serif;
+}
+
+/* Cookie Popup */
+.cookie-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  max-width: 260px;
+  padding: 1rem;
+
+  background-color: #000000;
+  border-radius: 1rem;
+}
+
+/* Icon */
+.cookie-popup img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1.5rem;
+}
+
+/* Text */
+.cookie-popup p {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Button wrapper */
+.cookie-actions {
+  display: flex;
+  gap: 6px;
+}
+
+/* Buttons */
+.cookie-actions button {
+  flex: 1;
+  padding: 0.8rem 1.5rem;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  background-color: orange;
+}
+span {
+  padding-top: 0.5rem;
+  color: white;
+  position: fixed;
+  right: 50px;
+  cursor: pointer;
+}
